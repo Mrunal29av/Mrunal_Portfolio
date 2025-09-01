@@ -26,7 +26,7 @@ const projects = [
     title: "Weather Application",
     description: "Displays current weather using OpenWeather API.",
     tech: ["ReactJS", "HTML", "CSS"],
-    live: "https://weather-app292003.netlify.app/",
+    live: "https://portfolio29mru.netlify.app/",
     github: "https://github.com/Mrunal29av/Weather_Application.git"
   }
 ];
