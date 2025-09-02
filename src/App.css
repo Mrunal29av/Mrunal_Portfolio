@@ -20,17 +20,16 @@ section {
 }
 
 /* ---------------- Navbar ---------------- */
-/* ---------------- Navbar ---------------- */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffffee; /* white with slight transparency */
+  background-color: #ffffffee; 
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   z-index: 100;
   transition: background 0.3s, box-shadow 0.3s;
-  font-family: 'Roboto', sans-serif; /* default navbar font */
+  font-family: 'Roboto', sans-serif; 
 }
 
 .navbar-container {
@@ -44,10 +43,10 @@ section {
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif; /* logo font */
+  font-family: 'Poppins', sans-serif; 
   font-size: 1.5rem;
   font-weight: 700;
-  color: #111827; /* dark text */
+  color: #111827; 
   letter-spacing: 1px;
 }
 
@@ -62,18 +61,18 @@ section {
   margin-left: 20px;
   padding: 6px 12px;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif; /* link/button font */
+  font-family: 'Roboto', sans-serif; 
   font-weight: 500;
   text-decoration: none;
   transition: background 0.3s, color 0.3s, transform 0.2s;
 }
 
 .nav-links a {
-  color: #111827; /* dark text */
+  color: #111827; 
 }
 
 .nav-links a:hover {
-  color: #4f46e5; /* hover color */
+  color: #4f46e5; 
   transform: scale(1.05);
 }
 
@@ -89,7 +88,6 @@ section {
   transform: scale(1.05);
 }
 
-/* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
